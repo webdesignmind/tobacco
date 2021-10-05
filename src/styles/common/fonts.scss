@@ -1,0 +1,19 @@
+// 100: Thin
+// 200: Extra Light (Ultra Light)
+// 300: Light
+// 400: Normal
+// 500: Medium
+// 600: Semi Bold (Demi Bold)
+// 700: Bold
+// 800: Extra Bold (Ultra Bold)
+// 900: Black (Heavy)
+
+// Скачать оптимизированные google шрифты  https://google-webfonts-helper.herokuapp.com/fonts
+/* manrope-500 - latin_cyrillic */
+@font-face {
+	font-family: "Manrope";
+	font-style: normal;
+	font-weight: 500;
+	src: local(""), url("../fonts/manrope-v3-latin_cyrillic-500.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */ url("../fonts/manrope-v3-latin_cyrillic-500.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+	font-display: swap;
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Fintech",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jedenkoor/Fintech.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jedenkoor/Fintech/issues"
+  },
+  "homepage": "https://github.com/jedenkoor/Fintech#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.12",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-cache": "^1.1.3",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-svg-sprite": "^1.5.0",
+    "imagemin-pngquant": "^9.0.0"
+  },
+  "dependencies": {
+    "accordion-js": "^3.0.0",
+    "focus-visible": "^5.2.0",
+    "gulp-if": "^3.0.0",
+    "imagemin-jpegtran": "^7.0.0",
+    "imask": "^6.0.5",
+    "medium-zoom": "^1.0.6",
+    "swiper": "^6.4.1"
+  }
+}

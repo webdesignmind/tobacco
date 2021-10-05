@@ -1,0 +1,45 @@
+block variables
+
+doctype html
+html
+	head
+		meta(charset="utf-8")
+		title #{title}
+		meta(content="" name="description")
+		meta(content="" name="keywords")
+		meta(name="viewport" content="width=device-width, initial-scale=1")
+		meta(content="ie=edge" http-equiv="x-ua-compatible")
+
+		link(rel="shortcut icon" href="assets/images/fav.png" type="image/x-icon")
+		link(rel="apple-touch-icon" href="assets/images/fav.png")
+
+		link(rel="stylesheet" type="text/css" href="assets/styles/swiper-bundle.min.css")
+		link(rel="stylesheet" type="text/css" href="assets/styles/accordion.min.css")
+		link(rel="stylesheet" type="text/css" href="assets/styles/app.css")
+		
+	body
+		include components/header.pug
+
+		block content
+
+		//- if contactForm
+			include components/contact.pug
+
+		include components/footer.pug
+
+		//- https://imask.js.org
+		script(src="assets/scripts/imask.min.js")
+		
+		//- https://github.com/michu2k/Accordion
+		script(src="assets/scripts/accordion.min.js")
+
+		//- https://swiperjs.com/
+		script(src="assets/scripts/swiper-bundle.min.js")
+
+		//- https://github.com/francoischalifour/medium-zoom
+		script(src="assets/scripts/medium-zoom.min.js")
+
+		//- https://github.com/WICG/focus-visible
+		script(src="assets/scripts/focus-visible.min.js")
+		
+		script(src="assets/scripts/main.js")
